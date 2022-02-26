@@ -32,7 +32,7 @@ print(paste("One and one is", 1 + 1))
 
 Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (press *Ctrl+Shift+K* to knit it all and preview the HTML file).
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (press *Ctrl+Shift+K* to knit it all and preview the HTML file). 
 
 ### The Bechdel Test
 
@@ -49,7 +49,7 @@ These are the packages you will need. If you don't have them, you need to uncomm
 When you load the packages you may see different kinds of messages or warnings, skim them:
 
 ```{r}
-# install.packages(c("tidyverse", "fivethirtyeight"))
+install.packages(c("tidyverse", "fivethirtyeight"))
 library(tidyverse)
 library(fivethirtyeight)
 library(lubridate)
